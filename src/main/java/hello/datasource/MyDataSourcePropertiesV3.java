@@ -26,7 +26,6 @@ public class MyDataSourcePropertiesV3 {
     @NotEmpty
     private String password;
 
-    @NotEmpty
     private Etc etc;
 
     public MyDataSourcePropertiesV3(String url, String username, String password, Etc etc) {
